@@ -1,6 +1,5 @@
 body, html {
     height: 100%;
-    margin: 0;
     font-family: Arial;
     background: #111;
     overflow: auto;
@@ -12,7 +11,6 @@ body, html {
 
 #top {
     position:fixed;
-
 }
 
 .topnav {
@@ -38,6 +36,7 @@ body, html {
 .topnav a:hover {
     background-color: whitesmoke;
     color: black;
+    margin-top: 10%;
 }
 
 .topnav a.active {
@@ -78,6 +77,35 @@ body, html {
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+   background-color: whitesmoke;
+   color: black;
+}
+
+.arrownav {
+    width: 100%;
+    position: fixed;
+}
+
+.previous {
+    background-color: #333;
+    color: whitesmoke;
+    margin-left: 1%;
+}
+
+.next {
+    margin-bottom: 10%;
+    background-color: #333;
+    color: whitesmoke;
+    margin-left: 90%;
+}
+
 #catpic {
     padding-top: 13px;
     overflow-x:hidden;
@@ -89,7 +117,6 @@ body, html {
     max-height: 300px;
     display: inline-block;
 }
-
 
 div.polaroid {
     background-color: "111;
