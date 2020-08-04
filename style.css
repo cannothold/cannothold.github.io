@@ -100,7 +100,32 @@ div.polaroid {
     margin-left: 20%;
     margin-right: 10%;
     margin-bottom: 10%;
+    margin-top: 2%;
 
+}
+
+div.polaroid2 {
+    background-color: "111;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+    max-width: 1200px;
+    display: inline-block;
+    margin-left: 40%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+
+div.polaroid3 {
+    background-color: "111;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+    max-width: 1200px;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 2%;
 }
 
 div.container {
