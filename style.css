@@ -107,6 +107,20 @@ a:hover {
     margin-left: 90%;
 }
 
+.bg {
+  background-image: url("img/cat%20gray.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;    overflow: auto;
+display: inline-block;
+    
+}
+
 #catpic {
     padding-top: 13px;
     overflow-x:hidden;
