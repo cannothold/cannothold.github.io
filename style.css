@@ -183,3 +183,17 @@ div.container {
 div img:hover {
   -webkit-transform: scale(1.5,1.5);
 }
+
+.logos a:hover {
+   background-color: #111;
+}
+
+.logos img:hover {
+  -webkit-transform: scale(1.1,1.1);
+}
+
+#insta{
+    float: right; 
+    padding: 10px;
+    margin: 5px;
+}
